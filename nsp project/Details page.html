@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Login</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito+sans:wght@200&display=swap');
+:root{
+--font-style:'nunito sans',sans-serif;
+}
+
+
+body{
+background:#131315;
+font-family:var(--font-style);
+}
+
+body h1{
+color:white;
+box-shadow:0 344px 67px rgb(143 124 236);
+}
+.login-box{
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 654px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
+    border-radius: 10px;
+}
+
+.login-box h2{
+	margin:0 0 30px;
+	padding:0;
+	color:#fff;
+	text-align: center;
+}
+
+
+.login-box .user-box input{
+	position:relative;
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	background:transparent;
+}
+
+.login-box .user-box label{
+	position:relative;
+	left:0;
+	top:-60px;
+	padding:1opx 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition:.5s;
+}
+
+
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+	top:-85px;
+	left:0;
+	color:#8F&CEC;
+	font-size:12px;
+}
+
+#submit{
+	padding:10px 20px;
+	color:#CBBDDB;
+	font-size:16px;
+	text-decoration:none;
+	text-transform:uppercase;
+	overflow:hidden;
+	transition:.5s;
+	letter-spacing:4px;
+	border:1px solid #8F7CEC;
+	margin:auto;
+}
+
+#submit:hover{
+	background:#8F7CEC;
+	color:#fff;
+	border-radius:5px;
+	box-shadow: 0 0 5ps #8F&CEC,0 0 25px #8F7CEC,0 0 50px #8F&CEC,0 0 100px #8F7CEC;
+}
+
+.button-form{
+	display:flex;
+	flex-directon:row;
+	margin-top:20px;
+}
+#register{
+	font-size:14px;
+	text-decoration:none;
+	color:#CBBDDB;
+	margin:auto;
+	width:60%;
+	text-align:center;
+}
+
+#register a{
+	margin:auto;
+	color:#8F7CEC;
+	text-decoration:none;
+}
+
+
+
+</style>
+<body>
+    <h1><center><U>DETAILS</center></U> </h1>
+ <div class="login-box"> 
+	<h2>FILL THIS</h2>
+    <form>
+  <div class="user-box">
+	<input type="text" name="" required="">
+	<label>Name</label>
+</div>
+
+<div class="user-box">
+	<input type="date" name="" required="">
+	<label>DOB</label>
+ </div>
+
+<div class="user-box">
+	<input type="text" name="" required="">
+	<label>Gender</label>
+ </div>
+
+<div class="user-box">
+	<input type="text" name="" required="">
+	<label>PLACE</label>
+ </div>
+
+
+<div class="user-box">
+	<input type="text" name="" required="">
+	<label>PLACE OF BIRTH</label>
+ </div>
+
+<div class="user-box">
+	<input type="text" name="" required="">
+	<label>PRESENT ADDRESS</label>
+ </div>
+
+<div class="user-box">
+	<input type="tel" name="" placeholder="" pattern="[0-9]{10}" required="">
+	<label>PHONE NO.</label>
+ </div>
+
+<div class="user-box">
+	<input type="text" name="" required="">
+	<label>PINCODE</label>
+ </div>
+
+<div class="user-box">
+	
+<input type="file" id="myFile" name="filename">
+<label type="photo">PHOTO</label>
+  
+ </div>
+
+
+
+
+
+
+<div class="button-form">
+	<a id="submit" href="file:///C:/Users/Yogesh/OneDrive/Desktop/nsp%20project/Document%20page.html">SUBMIT</a>
+	
+</div>
+</div>
+</form>
+</div>
+
+</body>
+
+</html>
